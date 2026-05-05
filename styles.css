@@ -1,0 +1,101 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 15px;
+    background: beige;
+}
+
+.home-title {
+    color: beige;
+    font-weight: bold;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.home-title a {
+    color: beige;
+    text-decoration: none !important;
+}
+
+.home-title a:hover {
+    text-decoration: none;
+    color: beige;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FF7B2C;
+}
+
+
+.page-header ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+
+.page-header h1 {
+    color: beige;
+    font-weight: bold;
+    padding-left: 30px;
+    text-decoration: none !important;
+    cursor: default;
+}
+
+.page-header h1:hover {
+    text-decoration: none;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 0;
+    color: beige;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 0;
+}
+
+.search h3 {
+    font-size: 28px;
+}
+
+input[type="text"] {
+    padding: 12px 15px;
+    font-size: 18px;
+    width: 400px;
+}
+
+section:nth-child(2) {
+    background-color: #FFA53F;
+    padding: 20px 0;
+}
+
+.columns-section {
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+.column {
+    flex: 1;
+    background-color: white;
+    border: 3px solid #FF7B2C;
+    border-radius: 15px;
+    padding: 20px;
+    color: #FFA53F;
+    height: 900px;
+}
+
+.column h2 {
+    margin-top: 0;
+}
